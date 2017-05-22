@@ -1,0 +1,57 @@
+body {
+	margin: 0px;
+	background: url(sublimetext.png) fixed;
+	width: 100%;
+	height: auto;
+}
+#sombra1{
+   background-color: #ddd;
+   width: 300px;
+   padding: 10px;
+    
+   box-shadow: 5px 5px 0 #333;
+   -webkit-box-shadow: 5px 5px 0 #333;
+   -moz-box-shadow: 5px 5px 0 #333;
+}
+#sombraclara{
+   width: 200px;
+   padding: 10px;
+   background-color: #999;
+   color: #fff;
+    
+   box-shadow: 2px 2px 2px #ffc;
+   -webkit-box-shadow: 2px 2px 2px #ffc;
+   -moz-box-shadow: 2px 2px 2px #ffc;
+}
+#sombraredondeada{
+   background-color: #090;
+   color: #fff;
+   width: 400px;
+   padding: 10px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+    
+   box-shadow: 15px -10px 3px #000;
+   -webkit-box-shadow: 15px -10px 3px #000;
+   -moz-box-shadow: 15px -10px 3px #000;
+}
+#divtoda{
+	width: 85%;
+	height: 1800px;
+	background: #f2f2f2;
+}
+#boxnegra{
+	width: 40%;
+	height: 200px;
+	background: #000;
+}
+#title{
+	width: 100%;
+	height: 175px;
+	background: #000;
+}
+#info{
+	width: 100%;
+	height: 100px;
+	background: #f2f2f2;
+}

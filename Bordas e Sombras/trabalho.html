@@ -1,0 +1,123 @@
+<html>
+	<head>
+	<link href="estilo.css" rel="stylesheet">
+	<title>Box-shadow em CSS3</title>
+	</head>
+	<body>
+		<br>
+		<br>
+		<br>
+		<center>
+		<div id="divtoda">
+			<br>
+			<div id="title">
+				<img src="bordasesombras.png">
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<center>
+			<div id="sombra1">
+			<p>Esta é uma camada com sombra criada com CSS 3.</p>
+			</div>
+			<br>
+			<br>
+			<div id="boxnegra">
+			<br>
+			<br>
+			<div id="sombraclara">
+			<p>Esse box terá um fundo negro pra poder vermos um exemplo de sombra clara.</p>
+			</div>
+			</div>
+			<br>
+			<br>
+			<div id="sombraredondeada">
+			<p>Esta camada tem as bordas arredondadas e a sombra se adapta à forma da camada, por isso terá bordas arredondadas.</p>
+			</div>
+			<br>
+			<br>
+			-webkit-border-radius: 10px;
+			<br>
+			<br>
+			<br>
+			<br>
+			</center>
+			
+			<div id="position">
+			<p>
+			
+			<h1>Atributo box-shadow</h1>
+			O atributo box-shadow precisa que o desenvolvedor passe alguns parâmetros padrões para que seja configurada algumas características das sombras, como esfumaçado, divisão de sombra, se a sombra terá alguma cor diferente da normal(preta) ou a própria caixa(box).<br><br>
+			A sintaxe padrão utilizada no box-shadow é:<br><br>
+			
+				box-shadow: 5px -9px 3px #000;
+			
+			<h1>Deslocamento horizontal da sombra:</h1>
+			
+			A sombra de um elemento costuma estar um pouco deslocada em relação ao elemento que a produz(o box). No caso deste exemplo, o primeiro dos valores, 5px, quer dizer que a sombra aparecerá 5 pixels à direita. Se quisermos que a sombra apareça um pouco à esquerda do elemento original que a produz, colocaríamos um valor negativo a este atributo. Quanto mais deslocamento tiver uma sombra, o elemento que a produz parecerá que está mais separado da tela da página.<br><br>
+			
+			box-shadow: "5px"
+			
+			<h1>Deslocamento vertical da sombra:</h1>
+
+			O segundo valor que colocamos no atributo box-shadow é o deslocamento vertical da sombra com respeito à posição do elemento que a produz(box). Este valor é similar ao deslocamento horizontal. Valores positivos indicam que a sombra aparecerá abaixo do elemento e valores negativos farão com que a sombra apareça deslocada um pouco para cima. No caso do anterior exemplo, com -9px estamos indicando que a sombra aparecerá deslocada 9 pixels para cima do elemento.<br><br>
+			
+			box-shadow: 5px "-9px"
+			
+			<h1>Esfumaçado:</h1>
+
+			O terceiro valor indica quanto queremos que esteja esfumaçada a borda da sombra, ou seja, significa se a sombra vai ter uma transparência ou não. Se o esfumaçado fosse zero, quer dizer que a sombra não tem nenhum esfumaçado e aparece totalmente definida. Se o valor for maior que zero, como em nosso exemplo 3px, quer dizer que a sombra terá um esfumaçado dessa largura, 3 pixels no exemplo.<br><br>
+			
+			box-shadow: 5px -9px "3px"
+			
+			<h1>Cor da sombra:</h1>
+
+			O último atributo que se indica no atributo box-shadow é a cor da sombra. Geralmente as sombras possuem uma cor preta ou cinza, porém podemos definir a cor que quisermos para a sombra, basta colocar seu código hexadecimal.<br><br>
+			
+			box-shadow: 5px -9px 3px "#000";
+			</p>
+			</div>
+		</div>
+		</center>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div id="info">
+			<table>
+				<tr>
+					<td>
+					<h3>Informações:</h3>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Equipe:
+					</td>
+					<td>
+						1
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Página feita por:
+					</td>
+					<td>
+						Lucas Salvador
+					</td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td>
+						Fonte da Pesquisa: <a href="http://www.linhadecodigo.com.br/artigo/3633/entendendo-o-atributo-box-shadow-nas-css3.aspx">www.linhadecodigo.com.br</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
